@@ -9,7 +9,7 @@ public class RegistryServerApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(RegistryServerApplication.class, args);
-		System.out.println("Registry Server running successfully...");
+		System.out.println("Registry Server running successfully!");
 	}
 
 }
