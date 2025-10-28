@@ -225,6 +225,9 @@ AccountMS: http://localhost:8084/swagger-ui.html
     GET	/api/accounts/all
 ->	Get all accounts
 
+    DELETE	/api/accounts/softDelete/{accountId}
+->	Inactivate an account (apply soft delete)
+
 ## 💓 Health Check Endpoint
 
 Each microservice exposes a **`/health`** endpoint to verify its operational status.  
